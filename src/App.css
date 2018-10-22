@@ -1,0 +1,109 @@
+
+.App {
+  background-color: #eaeaf6;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+
+.header{
+  padding-left:35px;
+}
+
+
+h1{
+  color: black;
+  padding-left:35px;
+}
+
+p{
+  color: black;
+}
+
+.textbox{
+  padding-left: 10%;
+  padding-right: 15%;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.paragraph{
+  margin-top:10px;
+}
+
+.paragraph:hover{
+  color: #188fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  .textbox {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+  }
+}
+
+
+.selection{
+  background-color: #7282fb;
+  width:20%;
+  margin-right:0;
+  padding: 20px 20px 10px 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .selection {
+    width:400px;
+    margin-left:50px;
+  }
+}
+
+
+textarea {
+  height: 100px;
+  width: 100%;
+  min-width: 100%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0;
+  line-height: $input-line-height;
+  background-color: white;
+  color: black;
+  font-size: $input-font-size;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #333333;
+  font-family: $font-family;
+  flex-wrap: wrap;
+
+
+}
+
+li{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+
+  transition: background-color .3s ease-out;
+}
+
+li:hover{
+  background-color: #188fff;
+  cursor: pointer;
+}
+
+button{
+  background-color: #7282fb;
+  padding: 5px 20px 5px 20px;
+}
+
+button:hover{
+  background-color: #188fff;
+  cursor: pointer;
+}
